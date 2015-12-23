@@ -1,0 +1,152 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+html{
+	font-family: arial, 'sans serif';
+	font-size: 18px;
+}
+
+.wrapper{
+	background-color: #C9F0CF;
+	background-repeat:  no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 100vh;
+	padding: 2rem 1rem;
+	text-align: center;
+	width: 100vw;
+}
+.title{
+	margin-bottom: 10px;
+	color: #f55;
+}
+
+.subtitle{
+	margin-bottom: 20px;
+	color: #f55;
+}
+
+.loader{
+	font-size: 1.5rem;
+	color: #f77;
+}
+
+.card-weather{
+	background-color: rgba(0,0,0,.3);
+	border-radius: 8px;
+	color: #ddd;
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 1rem;
+	text-align:left;
+}
+
+.card-header{
+	position: relative;
+	border-bottom: 1px solid #fff;
+	padding-bottom: .4rem;
+}
+
+.city{
+	font-size: 2rem;
+	height: 3rem;
+	line-height: 3rem;
+	text-align: left;
+	width: 60%;
+	
+}
+
+.temp_max{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.temp_min{
+	position: absolute;
+	bottom: .5rem;
+	right: 0;
+}
+
+.card-body{
+	position: relative;
+	border-bottom: 1px solid #fff;
+	padding-bottom: .4rem;
+}
+	
+#weather-icon{
+	vertical-align: middle;
+}
+
+.temp_current{
+	font-size: 3.5rem;
+	line-height: 100px;
+	position: absolute;
+	right: 0;
+	text-align: right;
+	top: 0;
+	width: 65%;
+}
+
+.main{
+	text-align: center;
+}
+
+.card-footer{
+	margin-top: .5em;
+	position: relative;
+}
+	
+.details{
+	width: 50%;
+	border-right: 1px solid #ccc;
+}
+
+.hours{
+	padding-left: .5em;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50%;
+}
+	
+.card-footer .data{
+	margin-bottom: .5em;
+}
+
+
+
+.changeUnit{
+	background: #C9F0CF;	
+	background: rgba(73,155,234,1);
+	background: -webkit-linear-gradient(rgba(73,155,234,1) 0%, rgba(32,124,229,1) 53%, rgba(73,155,234,1) 99%, rgba(73,155,234,1) 100%);
+	background: -o-linear-gradient(rgba(73,155,234,1) 0%, rgba(32,124,229,1) 53%, rgba(73,155,234,1) 99%, rgba(73,155,234,1) 100%);
+	background: linear-gradient(rgba(73,155,234,1) 0%, rgba(32,124,229,1) 53%, rgba(73,155,234,1) 99%, rgba(73,155,234,1) 100%);	border-radius: 4px;
+	color: #ddd;  
+	font-size: 1rem;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 1em;
+	width:  125px;
+}
+	
+/*Classes para imagen de fondo.*/
+.clear{
+	background-image: url(https://static.pexels.com/photos/2848/sea-sunny-beach-holiday.jpg);
+}
+
+.rain{
+	background-image:url(https://static.pexels.com/photos/1553/glass-rainy-car-rain.jpg)
+}
+
+.snow{
+	background-image: url(https://static.pexels.com/photos/6626/pexels-photo.jpeg);
+}
+.clouds{
+	background-image: url(https://static.pexels.com/photos/639/clouds-rainy-rain-asia.jpg);
+}
+.thunderstorm{
+	background-image: url(https://static.pexels.com/photos/799/city-lights-night-clouds.jpg);
+}

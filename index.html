@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Local Weather</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div id="wrapper" class="wrapper">
+		<header>
+			<h1 class="title">Free Code Camp Zipline</h1>
+			<h2 class="subtitle">Local Weather	App</h2>
+		</header>
+		<div class="loader">Collecting data from your city, please wait ...</div>
+		<div id="card-weather" class="card-weather">
+			<!-- Location, max and min -->
+			<div class="card-header">
+				<div id="city" class="city"></div>
+				<div id="temp_max" class="temp_max"></div>
+				<div id="temp_min" class="temp_min"></div>
+			</div>
+			<!-- Icon and actual temperature	 -->
+			<div class="card-body">
+				<img id="weather-icon" height="100px" width="100px" src="" alt="">
+				<div id="temp_current" class=" temp_current data"></div>
+				<div id="main" class="main data"></div>
+			</div>
+			
+			<!-- Details humidity, pressure and wind -->
+			<div class="card-footer">
+				<div class="details">	
+					<div id="wind" class="data "></div>
+					<div id="humidity" class="data"></div>
+					<div id="pressure" class="data"></div>
+				</div>
+				<div class="hours">
+					<div id="sunrise" class="data"></div>
+					<div id="sunset" class="data"></div>
+				</div>
+			</div>	
+		</div>
+		<button id="changeUnit" class="changeUnit">Fahrenheit</button>
+	</div>
+	
+	<!-- Librerias javaScript -->
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="main_en.js"></script>
+</body>
+</html>
