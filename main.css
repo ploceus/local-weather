@@ -6,7 +6,7 @@
 }
 html{
 	font-family: arial, 'sans serif';
-	font-size: 18px;
+	font-size: 16px;
 }
 
 .wrapper{
@@ -15,7 +15,7 @@ html{
 	background-size: cover;
 	background-position: center center;
 	height: 100vh;
-	padding: 2rem 1rem;
+	padding: 1rem .5rem;
 	text-align: center;
 	width: 100vw;
 }
@@ -38,7 +38,7 @@ html{
 	background-color: rgba(0,0,0,.3);
 	border-radius: 8px;
 	color: #ddd;
-	max-width: 400px;
+	max-width: 450px;
 	margin: 0 auto;
 	padding: 1rem;
 	text-align:left;
@@ -51,7 +51,7 @@ html{
 }
 
 .city{
-	font-size: 2rem;
+	font-size: 1.5rem;
 	height: 3rem;
 	line-height: 3rem;
 	text-align: left;
@@ -76,12 +76,15 @@ html{
 	padding-bottom: .4rem;
 }
 	
-#weather-icon{
+.weather-icon{
+	background-color: rgba(0, 0, 255, .2);
 	vertical-align: middle;
+	border-radius: 50%;
+	margin-top: .4em;
 }
 
 .temp_current{
-	font-size: 3.5rem;
+	font-size: 2.8rem;
 	line-height: 100px;
 	position: absolute;
 	right: 0;
